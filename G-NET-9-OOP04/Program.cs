@@ -38,31 +38,31 @@ namespace G_NET_9_OOP03
             #region part2
             #region Extending the Movie Ticket Booking System
            
-             Cinema cinema = new Cinema();
-                cinema.OpenCinema();
-            Console.WriteLine("Cinema opened.");
-            Console.WriteLine("----------------------------");
+            // Cinema cinema = new Cinema();
+            //    cinema.OpenCinema();
+            //Console.WriteLine("Cinema opened.");
+            //Console.WriteLine("----------------------------");
 
-            // Create one StandardTicket, one VIPTicket, and one IMAXTicket.
-            StandardTicket standardTicket = new StandardTicket("Standard", 10, "A-4");
-            VIPTicket vipTicket = new VIPTicket("VIP", 20, true);
-            IMAXTicket imaxTicket = new IMAXTicket("IMAX", 30, is3D: true);
+            //// Create one StandardTicket, one VIPTicket, and one IMAXTicket.
+            //StandardTicket standardTicket = new StandardTicket("Standard", 10, "A-4");
+            //VIPTicket vipTicket = new VIPTicket("VIP", 20, true);
+            //IMAXTicket imaxTicket = new IMAXTicket("IMAX", 30, is3D: true);
 
-            // Test both versions of SetPrice on one ticket.
-            standardTicket.SetPrice(10);
-            standardTicket.SetPrice(12);
+            //// Test both versions of SetPrice on one ticket.
+            //standardTicket.SetPrice(10);
+            //standardTicket.SetPrice(12);
 
-            // Add all tickets to the Cinema and call PrintAllTickets().
-            cinema.AddTicket(standardTicket);
-            cinema.AddTicket(vipTicket);
-            cinema.AddTicket(imaxTicket);
-            cinema.PrintAllTickets();
+            //// Add all tickets to the Cinema and call PrintAllTickets().
+            //cinema.AddTicket(standardTicket);
+            //cinema.AddTicket(vipTicket);
+            //cinema.AddTicket(imaxTicket);
+            //cinema.PrintAllTickets();
 
-            // Call ProcessTicket() with one of the tickets.
-            Cinema.ProcessTicket(standardTicket);
-            Console.WriteLine("----------------------------");
-            // Close the Cinema.
-            cinema.CloseCinema();
+            //// Call ProcessTicket() with one of the tickets.
+            //Cinema.ProcessTicket(standardTicket);
+            //Console.WriteLine("----------------------------");
+            //// Close the Cinema.
+            //cinema.CloseCinema();
 
             #endregion
             #endregion
