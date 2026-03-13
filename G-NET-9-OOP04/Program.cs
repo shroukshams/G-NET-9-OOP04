@@ -25,11 +25,11 @@ namespace G_NET_9_OOP03
 
 
 
-            ////Answers:
-            ////a) A child class in a different assembly cannot access a protected field directly. However, it can access it through inheritance. An object instance from outside cannot access the protected field at all.
-            ////b) protected internal allows access to the member from any class in the same assembly or from derived classes in any assembly. private protected allows access only from derived classes within the same assembly.
-            ////c) When applied to a class, the sealed keyword prevents other classes from inheriting from it. When applied to a method, it prevents derived classes from overriding that method.
-            ////d) Yes, you can create an object from a sealed class using new. The sealed keyword only prevents inheritance, not instantiation. You can still create instances of a sealed class as long as it has a public constructor.
+            //////Answers:
+            //////a) A child class in a different assembly cannot access a protected field directly. However, it can access it through inheritance. An object instance from outside cannot access the protected field at all.
+            //////b) protected internal allows access to the member from any class in the same assembly or from derived classes in any assembly. private protected allows access only from derived classes within the same assembly.
+            //////c) When applied to a class, the sealed keyword prevents other classes from inheriting from it. When applied to a method, it prevents derived classes from overriding that method.
+            //////d) Yes, you can create an object from a sealed class using new. The sealed keyword only prevents inheritance, not instantiation. You can still create instances of a sealed class as long as it has a public constructor.
 
 
             #endregion
