@@ -13,12 +13,12 @@ namespace G_NET_9_OOP03
         {
 
             #region Q1
-            ////Answers:
-            ////a) Composition (The University and Departments have a strong lifecycle dependency. If the University is closed, the Departments cease to exist.)
-            ////b) Association (The Driver and Car have a weak relationship. The Driver uses the Car but does not own it, and the Car can exist independently of the Driver.)
-            ////c) Inheritance (A Dog is a specific type of Animal, indicating an "is-a" relationship where Dog inherits from Animal.)
-            ////d) Aggregation (The Team and Players have a weak relationship. The Team can exist without the Players, and the Players can exist without the Team.)
-            ////e) Dependency (The method depends on the Logger to perform its function, but the Logger is not a part of the method's lifecycle. The method uses the Logger temporarily and does not maintain a long-term relationship with it.)
+            //////Answers:
+            //////a) Composition (The University and Departments have a strong lifecycle dependency. If the University is closed, the Departments cease to exist.)
+            //////b) Association (The Driver and Car have a weak relationship. The Driver uses the Car but does not own it, and the Car can exist independently of the Driver.)
+            //////c) Inheritance (A Dog is a specific type of Animal, indicating an "is-a" relationship where Dog inherits from Animal.)
+            //////d) Aggregation (The Team and Players have a weak relationship. The Team can exist without the Players, and the Players can exist without the Team.)
+            //////e) Dependency (The method depends on the Logger to perform its function, but the Logger is not a part of the method's lifecycle. The method uses the Logger temporarily and does not maintain a long-term relationship with it.)
 
             #endregion
             #region Q2  Q2 : Answer the following questions about access modifiers and sealed:
